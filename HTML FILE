@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escrow Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Buyer</a></li>
+        <li><a href="#">Seller</a></li>
+        <li><a href="#">Service Provider</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="main-section">
+      <h2>Secure transactions using our service.</h2>
+      <p>With our escrow services, you can buy and sell anything safely without the risk of losing your money.</p>
+
+      <div class="selection-section">
+        <h3>Choose the type of service:</h3>
+        <input type="radio" id="buying" name="service" value="buying">
+        <label for="buying">I'm buying</label>
+        <input type="radio" id="selling" name="service" value="selling">
+        <label for="selling">I'm selling</label>
+
+        <div id="product-section">
+          <label for="product">Product:</label>
+          <input type="text" id="product" name="product">
+        </div>
+        <div id="amount-section">
+          <label for="amount">For Ksh:</label>
+          <input type="number" id="amount" name="amount">
+        </div>
+
+        <button id="get-started">Get Started</button>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <ol>
+        <li>
+          <h4>Agree to terms</h4>
+          <p>Buyer and seller agree to secure an order via Escrow Kenya. Seller creates the order by filling the "Start Transaction" form.</p>
+        </li>
+        <li>
+          <h4>Payment</h4>
+          <p>Buyer receives an invitation via email and SMS, accepts it and makes payment into escrow. Money is held in both the buyer’s and seller’s escrow account.</p>
+        </li>
+        <li>
+          <h4>Delivery</h4>
+          <p>Seller is notified via email and SMS to proceed with delivery and delivers the goods by the due date.</p>
+        </li>
+        <li>
+          <h4>Approval</h4>
+          <p>Buyer confirms that everything carried on as expected by approving the order in their escrow account dashboard.</p>
+        </li>
+        <li>
+          <h4>Escrow Release</h4>
+          <p>Funds are removed from the buyer’s escrow account and made available for withdrawal in the seller’s account.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Our Partners</a></li>
+        <li><a href="#">About Us</
